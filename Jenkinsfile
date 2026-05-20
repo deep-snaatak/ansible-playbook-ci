@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
 
             steps {
-                git 'https://github.com/your-repository.git'
+                git 'https://github.com/deep-snaatak/ansible-playbook-ci.git'
             }
         }
 
